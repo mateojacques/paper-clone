@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="ico/png"
+      href="https://cdn.iconscout.com/icon/free/png-256/dropbox-159-675812.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+      integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Paper Clone</title>
+  </head>
+  <body>
+    <button class="phone-menu-toggle"><i class="fas fa-bars"></i></button>
+
+    <section class="left-menu">
+      <div class="container">
+        <button class="close"><i class="fas fa-times"></i></button>
+
+        <div class="logo">
+          <i class="fas fa-chevron-left"></i>
+          <i class="fab fa-dropbox fa-2x"></i>
+        </div>
+
+        <a href="#"><h1>Paper</h1></a>
+        <a href="#"><h1>Home</h1></a>
+
+        <div class="bottom">
+          <div>
+            <h1>Personal</h1>
+            <h2>Only you</h2>
+          </div>
+          <i class="fas fa-arrows-alt-v"></i>
+        </div>
+      </div>
+    </section>
+
+    <section class="main">
+      <nav class="nav">
+        <h1>Paper Home</h1>
+
+        <div class="right-nav">
+          <div class="search">
+            <i class="fas fa-search"></i>
+            <input
+              type="text"
+              class="search-input"
+              placeholder="Search by keyword or person..."
+            />
+          </div>
+
+          <div class="links">
+            <button><i class="fas fa-search hide"></i></button>
+            <button><i class="fas fa-check-square"></i></button>
+            <button><i class="fas fa-bell"></i></button>
+            <div class="user"><h4>MJ</h4></div>
+            <button class="right-nav-menu">
+              <i class="fas fa-plus-circle"></i>
+            </button>
+          </div>
+        </div>
+      </nav>
+
+      <section class="archives">
+        <div class="archives-left">
+          <div class="categories">
+            <div>
+              <a href="#" class="category active"><h2>All</h2></a>
+              <a href="#" class="category"><h2>Starred</h2></a>
+              <a href="#" class="category"><h2>Docs</h2></a>
+              <a href="#" class="category"><h2>Folders</h2></a>
+            </div>
+
+            <a href="#" class="recent"
+              ><h3>Viewed recently <i class="fas fa-sort-down"></i></h3
+            ></a>
+          </div>
+          <div class="archives-main"></div>
+        </div>
+        <div class="archives-right">
+          <div class="buttons">
+            <a href="#" class="new-document btn">Create new doc</a>
+            <a href="#" class="btn">
+              <i class="fas fa-folder"></i>Create new folder</a
+            >
+            <a href="#" class="btn"
+              ><i class="fas fa-copy"></i>Create with templates</a
+            >
+            <a href="#" class="btn"
+              ><i class="fas fa-pen"></i>Create meeting notes</a
+            >
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <div class="help">
+      <i class="fas fa-keyboard"></i>
+      <i class="fas fa-question-circle"></i>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
